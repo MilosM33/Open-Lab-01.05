@@ -4,9 +4,7 @@ namespace Open_Lab_01._05
 {
     public class Boolean
     {
-        public bool Reverse(bool value)
-        {
-            throw new NotImplementedException();
-        }
+        public bool Reverse(bool value) => !value;
+        
     }
 }
